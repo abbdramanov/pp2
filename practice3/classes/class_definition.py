@@ -1,28 +1,6 @@
 class Person:
-    pass
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-p = Person()
-
-
-
-class Dog:
-    def bark(self):
-        print("Woof")
-
-d = Dog()
-d.bark()
-
-
-
-class Car:
-    wheels = 4
-
-print(Car.wheels)
-
-
-
-class Student:
-    name = "Unknown"
-
-s = Student()
-print(s.name)
+p = Person("Alice", 30)
