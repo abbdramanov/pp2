@@ -74,7 +74,7 @@ def main():
     font_info   = pygame.font.SysFont("Arial", 18)
 
     # Music player instance — loads tracks from ./music/ folder
-    player = MusicPlayer(music_folder="music")
+    player = MusicPlayer(music_folder="/Users/abdramanov/Desktop/pp2/practice9/music_player/music")
 
     running = True
     while running:
